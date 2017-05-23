@@ -22,16 +22,16 @@
 .bordeAzul
 {
   border:1px solid blue;
+}
+  .bordeBlanco
+  {
+    border:1px solid white;
 
 }
 .bordeVerde
 {
   border:1px solid green ;
 
-}
-
-.fondo{
-background-image: url('..img/taxi.jpg');
 }
 .posicionFija{
   position:fixed;
@@ -47,6 +47,35 @@ background-image: url('..img/taxi.jpg');
   background: white;
   color:black;
 }
-.posicionFija{
+.fondoNegro{
+  background:black;
+  color:white;
+}
+/*.posicionFija{
   position:fixed;
+}*/
+.opacidad{
+  opacity:.3;
+}
+
+.imgFondo{
+  background-image:url(../img/taxi.jpg);
+  padding: 30em;
+  padding-right: 0px;
+
+}
+
+.tamanoContenedorImg
+{
+  height: inherit;
+}
+.posicion{
+  position:relative;
+  bottom: 50em;
+}
+.anchoTotal{
+  width: 100%;
+}
+.margen{
+  margin:5em;
 }
