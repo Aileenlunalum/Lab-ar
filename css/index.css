@@ -1,0 +1,52 @@
+.bordeRojo
+{
+  border:1px solid red ;
+
+}
+.bordeAzul
+{
+  border:1px solid blue;
+
+}
+.bordeVerde
+{
+  border:1px solid green ;
+
+}
+
+.bordeRojo
+{
+  border:1px solid red ;
+
+}
+.bordeAzul
+{
+  border:1px solid blue;
+
+}
+.bordeVerde
+{
+  border:1px solid green ;
+
+}
+
+.fondo{
+background-image: url('..img/taxi.jpg');
+}
+.posicionFija{
+  position:fixed;
+}
+.AnchoPagina{
+  height:200px!important;
+}
+.fondoAmarillo{
+  background: #f67800;
+  color:white;
+}
+.fondoBlanco{
+  background: white;
+  color:black;
+}
+.posicionFija{
+  position:fixed;
+}
