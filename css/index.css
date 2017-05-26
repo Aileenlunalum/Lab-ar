@@ -79,3 +79,21 @@
 .margen{
   margin:5em;
 }
+.ajusteAutomatico{
+  width: 100%;
+}
+ .margenModal{
+   margin-top:8%;
+
+  }
+  .fondoAzul{
+    background: blue;
+    color: white;
+  }
+  .bordeRedondeado{
+    border-radius: 15%;
+  }
+ .sombra{
+
+   opacity: .5;
+ }

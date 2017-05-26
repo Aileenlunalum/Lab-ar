@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,12 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="assets/css/formulario.css">
-	  <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Labcar</title>
   </head>
   <body>
+
+<!-- Modal -->
+<div class="modal fade " id="registrate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog " role="document">
+    <div class="modal-content">
+
+        <div class="row fondoNegro ">
+          <div class="col-xs-12 e fondoAzul borderRedondeado">
+            <button type="button" class="close fondoAzul" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-title col-xs-12 text-center"  id="exampleModalLongTitle ">YA TIENES UNA CUENTA?</div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="modal-body ">
+        <div class="row margenModal">
+          <div class="col-xs-4 col-xs-offset-1">
+              <input type="text" class="form-control" placeholder="Nombre:">
+            </div>
+            <div class="col-xs-6 col-xs-offset-1">
+              <input type="text" class="form-control"   placeholder="Apellído:">
+              </div>
+            </div>
+            <div class="row margenModal">
+              <div class="col-xs-10 col-xs-offset-1  ">
+               <input type="email" class="form-control  "   placeholder="correo electrónico:">
+             </div>
+           </div>
+           <div class="row margenModal">
+             <div class="col-xs-10 col-xs-offset-1  ">
+                 <input type="telephone" class="form-control "   placeholder="teléfono:">
+               </div>
+           </div>
+           <div class="row margenModal">
+             <div class="col-xs-10 col-xs-offset-1  ">
+                 <input type="text" class="form-control"   placeholder="ciudad:">
+               </div>
+            </div>
+            <div class="row margenModal">
+                <div class="col-xs-10 col-xs-offset-1  ">
+                  <input type="password" class="form-control "   placeholder="codígo de invitación:">
+            </div>
+        </div>
+        <div class="row margenModal">
+            <div class="col-xs-10 col-xs-offset-1  ">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle text-center" type="button" data-toggle="dropdown">Cómo te enteraste de nosotros ?
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu margenModal">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">>twiter</a></li>
+                    <li><a href="#">anuncios</a></li>
+                  <li><a href="#">ó otro</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      <div class="modal-footer margenModal">
+        <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary ">enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade " id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal-dialog " role="document">
+    <div class="modal-content">
+
+        <div class="row fondoNegro ">
+          <div class="col-xs-12 e fondoAzul borderRedondeado">
+            <button type="button" class="close fondoAzul" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-title col-xs-12 text-center"  id="exampleModalLongTitle "></div>
+          </div>
+        </div>
+
+
+
+      <div class="modal-body  fondoBlanco">
+            <div class="row margenModal">
+              <div class="col-xs-10 col-xs-offset-1  ">
+                <label for="usr">Tienes vehículo de 4 puertas?</label>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle text-center" type="button" data-toggle="dropdown">
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu margenModal">
+                      <li><a href="#">sí</a></li>
+                      <li><a href="#">No</a></li>
+                    </ul>
+                  </div>
+             </div>
+           </div>
+           <div class="row margenModal">
+             <div class="col-xs-10 col-xs-offset-1  ">
+                  <label for="usr">Marca:</label>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle text-center" type="button" data-toggle="dropdown">
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu margenModal">
+                      <li><a href="#">Ford</a></li>
+                      <li><a href="#">BMW</a></li>
+                        <li><a href="#">etc</a></li>
+                      <li><a href="#">...</a></li>
+                    </ul>
+                  </div>
+               </div>
+           </div>
+           <div class="row margenModal">
+             <div class="col-xs-10 col-xs-offset-1  ">
+                  <label for="usr">modelo:</label>
+                      <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle text-center" type="button" data-toggle="dropdown">
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu margenModal">
+                          <li><a href="#">2010</a></li>
+                          <li><a href="#">2011</a></li>
+                            <li><a href="#">...</a></li>
+                          <li><a href="#">2017</a></li>
+                        </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="row margenModal">
+                <div class="col-xs-10 col-xs-offset-1  ">
+                <label for="usr">No ves tú vehículo en la lista? si es así manda  un correo!! <a href="#">LabcarcompanySA@hotmail.com</a></label>
+            </div>
+        </div>
+        <div class="row margenModal">
+            <div class="col-xs-10 col-xs-offset-1  ">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle text-center" type="button" data-toggle="dropdown">Dropdown Example
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu margenModal">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">>twiter</a></li>
+                    <li><a href="#">anuncios</a></li>
+                  <li><a href="#">ó otro</a></li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      <div class="modal-footer margenModal">
+        <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary ">enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
    <header class="container-fluid">
             <div class="col-md-1 col-md-offset-1 ">
               <img src="img/logoForma.png" class="img-responsive" alt="">
@@ -23,7 +175,7 @@
               <span>Conduce</span>
             </div>
             <div class="col-md-2 ">
-                <span>Inicia Sesión</span>
+          <button type="button" >Inicia Sesión</button>
             </div>=
             </nav>
   </header>
@@ -42,10 +194,10 @@
                      <div class="col-md-9 col-md-offset-1">
                           <p>Disfruta del  viaje eres  dueño de   tu tiempo</p>
                           <br><p>Viaja con  nosotros</p>
-                          <button type="button"  class="fondoBlanco"name="button">Registrate!!</button>
+                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrate">Registrate!!</button>
                           <br><p>______________ o bien ________________<p>
 
-                           <button type="button"  class="fondoBlanco"name="button">convierte en un conductor!!
+                          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">convierte en un conductor!!
                            </button>
                            </div>
                      </div>
@@ -128,8 +280,8 @@
 
           </section>
         </footer>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </body>
 </html>
